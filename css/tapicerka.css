@@ -1,0 +1,193 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Dominik Danielewicz
+Updated: September 2015
+Notes:	 
+
+*/
+
+/* --------------------------------------
+   Header
+   -------------------------------------- */
+
+header {
+
+    background-color: #1f1f1f;
+    
+}
+
+header img{
+
+width: 200px;
+margin: 20px 0px 20px 0px;
+
+}
+
+
+/* --------------------------------------
+   Header-Social
+   -------------------------------------- */
+
+.social {
+    float: right;
+    text-align: right;
+    margin: 30px 0px 20px 0px;
+}
+
+.social ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+.social ul li {
+    display: inline-block;
+}
+
+.social p {
+    margin: 10px 0 2px 0;
+    font-size: .85em;
+    
+}
+
+.social a i {
+    margin-left: 5px;
+    text-decoration: none;
+    color: #a1a1a1;
+    font-size: 4em;
+    transition: color .5s;
+    -webkit-transition: color .5s;
+    -moz-transition: color .5s;
+}
+
+.social a:hover i.icon-facebook-sign {
+    color: #3B5998;
+}
+
+.social a:hover i.icon-twitter-sign {
+    color: #4099ff;
+}
+
+.social a:hover i.icon-google-plus-sign {
+    color: #d34836;
+}
+
+.social a:hover i.icon-youtube-sign {
+    color: #ff3333;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+.slidercolor{
+margin-top: -25px;
+background-color: #343434;
+padding-bottom: 60px
+}
+
+#main1{
+
+padding-top: 50px;
+
+}
+
+/* --------------------------------------
+   Galeria
+   -------------------------------------- */
+
+#galery {
+
+margin-bottom: 50px;
+
+}
+
+#galery img {
+
+margin-bottom: 30px;
+
+}
+
+
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+.navbar {
+    background-color: #313131;
+    border-radius: 0px;
+    border-style: none;
+}
+
+.navbar-nav {
+    font-size: 28px;
+    padding: 8px 0px 8px 20px;
+    
+}
+
+.navbar-nav li:hover {
+    
+    border-top: 3px solid #ff8000;
+       
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+
+ color: #ff8000;
+
+}
+
+
+
+
+   
+   
+/* --------------------------------------
+   Footer
+   -------------------------------------- */
+.footercolor {
+    background-color: #242424;
+}
+
+footer {
+    background-color: #313131;
+    color: #efefef;
+
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
