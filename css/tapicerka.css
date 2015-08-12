@@ -14,18 +14,13 @@ Notes:
    -------------------------------------- */
 
 header {
-
-    background-color: #1f1f1f;
-    
+    background-color: #1d1e20; 
 }
 
 header img{
-
-width: 200px;
-margin: 20px 0px 20px 0px;
-
+    width: 200px;
+    margin: 20px 0px 20px 0px;
 }
-
 
 /* --------------------------------------
    Header-Social
@@ -50,7 +45,6 @@ margin: 20px 0px 20px 0px;
 .social p {
     margin: 10px 0 2px 0;
     font-size: .85em;
-    
 }
 
 .social a i {
@@ -84,48 +78,20 @@ margin: 20px 0px 20px 0px;
    -------------------------------------- */
 
 .slidercolor{
-margin-top: -25px;
-background-color: #343434;
-padding-bottom: 60px
+    margin-top: -25px;
+    background-color: #343434;
+    padding-bottom: 60px
 }
 
 #main1{
-
-padding-top: 50px;
-
+    padding-top: 50px;
 }
-
-/* --------------------------------------
-   Galeria
-   -------------------------------------- */
-
-#galery {
-
-margin-bottom: 50px;
-
-}
-
-#galery img {
-
-margin-bottom: 30px;
-
-}
-
-
-
-
-
-/* --------------------------------------
-   Typography
-   -------------------------------------- */
-
-
 
 /* --------------------------------------
    Navbar
    -------------------------------------- */
 .navbar {
-    background-color: #313131;
+    background-color: #222325;
     border-radius: 0px;
     border-style: none;
 }
@@ -133,44 +99,67 @@ margin-bottom: 30px;
 .navbar-nav {
     font-size: 28px;
     padding: 8px 0px 8px 20px;
-    
 }
 
 .navbar-nav li:hover {
-    
-    border-top: 3px solid #ff8000;
-       
+    border-top: 3px solid #ff8000;   
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ff8000;
+}
 
- color: #ff8000;
+/* --------------------------------------
+   Galeria
+   -------------------------------------- */
+
+#galery {
+    margin-bottom: 50px;
+}
+
+#galery img {
+    margin-bottom: 30px;
+}
+
+
+/* --------------------------------------
+   Content
+   -------------------------------------- */
+
+.contentcolor {
+
+    background-color: #e8e8e8;
+
+}
+
+#main2{
+
+    background-color: #f5f5f5;
 
 }
 
 
-
-
-   
-   
 /* --------------------------------------
    Footer
    -------------------------------------- */
 .footercolor {
-    background-color: #242424;
+    background-color: #1f2022;
 }
 
 footer {
-    background-color: #313131;
+    background-color: #28292b;
     color: #efefef;
-
 }
 
+.srodek img {
+    
+    width: 100px;
+    
+}
 
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
-
 
 
 /* --------------------------------------
