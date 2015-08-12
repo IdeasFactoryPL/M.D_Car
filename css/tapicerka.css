@@ -109,6 +109,18 @@ header img{
     color: #ff8000;
 }
 
+.navbar h3 {
+
+    color: #c1c1c1;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+
+    color: #c1c1c1; 
+
+}
+
 /* --------------------------------------
    Galeria
    -------------------------------------- */
@@ -147,7 +159,7 @@ header img{
 
 #main2{
 
-    background-color: #f5f5f5;
+    background-color: #f1f1f1;
 
 }
 
@@ -196,6 +208,10 @@ header img{
     background-color: #1f2022;
 }
 
+.footercolor li, a, h1, h2, h3, h4, p{
+    color: #c1c1c1;
+}
+
 #main3{
     background-color: #28292b;
     color: #efefef;
@@ -205,6 +221,7 @@ header img{
 #col1 h1 {
 
     margin-bottom: 30px;
+    
     
 }
 
