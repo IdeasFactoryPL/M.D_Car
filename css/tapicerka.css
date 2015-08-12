@@ -121,6 +121,19 @@ header img{
     margin-bottom: 30px;
 }
 
+#galery button {
+
+    
+
+}
+
+#galery h1 {
+
+    margin-left: 45px;
+    margin-bottom: 20px;
+
+}
+
 
 /* --------------------------------------
    Content
@@ -138,6 +151,43 @@ header img{
 
 }
 
+.smallcol {
+
+    width:80%;
+
+}
+
+.top {
+
+    display: inline-block;
+
+}
+
+.top img {
+    
+    margin-top: 12px;
+    width: 20%;
+    float: left;
+
+}
+
+.top1 {
+
+    display:inline-block;
+    float: left;
+    width: 100%;
+    margin-left: 40px;
+
+}
+
+.top1 img {
+    
+    margin-top: 12px;
+    width: 5%;
+    float: left;
+
+}
+
 
 /* --------------------------------------
    Footer
@@ -146,16 +196,51 @@ header img{
     background-color: #1f2022;
 }
 
-footer {
+#main3{
     background-color: #28292b;
     color: #efefef;
 }
 
-.srodek img {
+
+#col1 h1 {
+
+    margin-bottom: 30px;
+    
+}
+
+#col2 img {
     
     width: 100px;
     
 }
+
+#col3 #textform {
+
+    margin-top: 30px;
+
+}
+
+#col3 #textform2 {
+
+    margin-top: 20px;
+
+}
+
+#atach {
+
+margin-top: 20px;
+
+}
+
+address{
+
+margin-top: 20px;
+
+
+}
+
+
+
 
 /* --------------------------------------
    Global Styles
