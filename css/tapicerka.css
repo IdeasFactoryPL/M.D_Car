@@ -100,6 +100,7 @@ header img {
     border-radius: 0px;
     border-style: none;
     height: 70px;
+    margin-bottom: 0px;
 }
 
 .navbar-nav {
@@ -118,7 +119,6 @@ header img {
 
 .navbar-nav li:hover {
     border-top: 3px solid #ff8000;
-
 }
 
 .navbar-default .navbar-nav>li>a:focus,
@@ -261,9 +261,8 @@ header img {
     color: #efefef;
 }
 
-#col1 .top h1 {
-    margin-bottom: 30px;
-    font-size: 26px;
+#col1 .top h2 {
+    margin-bottom: 40px;
 }
 
 #col1 h3 {
@@ -314,63 +313,36 @@ address {
     font-size: 26px;
 }
 
-#col1 .top h2 {
-    margin-bottom: 40px;
+
+/* --------------------------------------
+   Strona - Kontakt
+   -------------------------------------- */
+
+#kontaktcol h3 {
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
 }
 
 
 /* --------------------------------------
-   Global Styles
+   Strona - Galeria
    -------------------------------------- */
 
-
-/* --------------------------------------
-   Animacja
-   -------------------------------------- */
-
-.gly-spin {
-    -webkit-animation: spin 2s infinite linear;
-    -moz-animation: spin 2s infinite linear;
-    -o-animation: spin 2s infinite linear;
-    animation: spin 2s infinite linear;
+.photos {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 90%;
+    
 }
 
-@-moz-keyframes spin {
-    0% {
-        -moz-transform: rotate(0deg);
-    }
-    100% {
-        -moz-transform: rotate(359deg);
-    }
+.photo {
+    display: inline-block;
+    margin-right: 55px
 }
 
-@-webkit-keyframes spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(359deg);
-    }
-}
-
-@-o-keyframes spin {
-    0% {
-        -o-transform: rotate(0deg);
-    }
-    100% {
-        -o-transform: rotate(359deg);
-    }
-}
-
-@keyframes spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(359deg);
-        transform: rotate(359deg);
-    }
+.photo:last-child {
+    margin-right: 0px;
 }
 
 
@@ -381,24 +353,15 @@ address {
 
 /* Landscape phone to portrait tablet */
 
-@media (max-width: 768px) {
-
-    
-
-}
-
+@media (max-width: 768px) {}
 
 @media (max-width: 991px) {
-
     .navbar {
         height: auto;
     }
-
 }
 
 
 /* Large desktop */
 
-@media (min-width: 1200px) {
-
-}
+@media (min-width: 1200px) {}
