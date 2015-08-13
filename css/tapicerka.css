@@ -99,6 +99,7 @@ header img {
     background-color: #222325;
     border-radius: 0px;
     border-style: none;
+    height: 70px;
 }
 
 .navbar-nav {
@@ -106,8 +107,18 @@ header img {
     padding: 8px 0px 8px 20px;
 }
 
+.navbar-nav li {
+    margin-top: -10px;
+}
+
+.navbar-nav li a {
+    padding-top: 25px;
+    padding-bottom: 28px;
+}
+
 .navbar-nav li:hover {
     border-top: 3px solid #ff8000;
+
 }
 
 .navbar-default .navbar-nav>li>a:focus,
@@ -370,9 +381,24 @@ address {
 
 /* Landscape phone to portrait tablet */
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+
+    
+
+}
+
+
+@media (max-width: 991px) {
+
+    .navbar {
+        height: auto;
+    }
+
+}
 
 
 /* Large desktop */
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+
+}
