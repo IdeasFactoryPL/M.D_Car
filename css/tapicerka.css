@@ -228,7 +228,7 @@ header img {
 
 .top1 img {
     margin-top: 4px;
-    width: 5%;
+    width: 60px;
     float: left;
 }
 
@@ -236,11 +236,6 @@ header img {
     font-size: 26px;
 }
 
-#note {
-
-background-color: antiquewhite;
-
-}
 
 
 /* --------------------------------------
@@ -324,14 +319,31 @@ address {
    Strona - Kontakt
    -------------------------------------- */
 
+#kontaktcol  {
+    margin-top: 20px;
+}
+
+
 #kontaktcol h3 {
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 19px;
+    line-height: 26px;
     text-align: center;
 }
 
 .map {
     width: 80%
+}
+
+.top-centra {
+     text-align: center;
+}
+
+.top-centra img{
+     width: 30%;   
+}
+
+.top-centra h2{
+     margin-top: 2px;
 }
 
 
