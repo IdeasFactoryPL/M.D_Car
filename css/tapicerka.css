@@ -222,7 +222,6 @@ header img {
 
 .top1 {
     display: inline-block;
-    float: left;
     width: 100%;
     margin-left: 40px;
 }
@@ -235,6 +234,12 @@ header img {
 
 .top1 h2 {
     font-size: 26px;
+}
+
+#note {
+
+background-color: antiquewhite;
+
 }
 
 
@@ -266,7 +271,8 @@ header img {
 }
 
 #col1 h3 {
-    font-size: 20px;
+    font-size: 19px;
+    line-height: 23px;
 }
 
 #col2 img {
@@ -281,7 +287,7 @@ header img {
 
 #col2 h3 {
     line-height: 15px;
-    font-size: 22px;
+    font-size: 19px;
 }
 
 #col2 h1 {
@@ -324,25 +330,18 @@ address {
     text-align: center;
 }
 
+.map {
+    width: 80%
+}
+
 
 /* --------------------------------------
    Strona - Galeria
    -------------------------------------- */
 
-.photos {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 90%;
-    
-}
-
 .photo {
-    display: inline-block;
-    margin-right: 55px
-}
-
-.photo:last-child {
-    margin-right: 0px;
+    width: 80%;
+    margin-bottom: 30px;
 }
 
 
