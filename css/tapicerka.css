@@ -101,9 +101,9 @@ header img {
     border-style: none;
     height: 70px;
     margin-bottom: 0px;
-    -webkit-box-shadow: -3px 4px 14px -9px rgba(0,0,0,0.3);
--moz-box-shadow: -3px 4px 14px -9px rgba(0,0,0,0.3);
-box-shadow: -3px 4px 14px -9px rgba(0,0,0,0.3);
+    -webkit-box-shadow: -3px 4px 14px -9px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: -3px 4px 14px -9px rgba(0, 0, 0, 0.3);
+    box-shadow: -3px 4px 14px -9px rgba(0, 0, 0, 0.3);
 }
 
 .navbar-nav {
@@ -163,29 +163,33 @@ box-shadow: -3px 4px 14px -9px rgba(0,0,0,0.3);
 /* --------------------------------------
    Content
    -------------------------------------- */
-hr{
-    border-color: #838383
-}
 
-#galleryhk{
-
+hr {
     border-color: #838383;
-    margin-top: 0px;
-    width: 100%;
-    border-style: dashed;
-    
-
+    margin-top: 12px;
 }
 
-.shadowcolumn{
+.kontakthr {
+    width: 60%;
+}
+
+.borderhr {
+    border-right: 2px dashed #dddddd;
+    margin-top: 10px;
+}
+
+.borderhr:last-child {
+    border: none;
+}
+
+.shadowcolumn {
     height: auto;
     width: 90%;
     margin: 0 auto;
     margin-top: 20px;
-    
--webkit-box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.20);
--moz-box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.20);
-box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.20);
+    -webkit-box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.20);
+    -moz-box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.20);
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.20);
     padding-bottom: 50px;
 }
 
@@ -262,20 +266,10 @@ box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.20);
     float: left;
 }
 
-.hrtop{
- display: inline-block;
- width:25%;
-
-}
-
-.hrtop hr{
- margin: 0 auto;
- margin-bottom: 20px;
-}
-
 .top1 {
     width: 100%;
     margin-left: 40px;
+    display: inline-block;
 }
 
 .top1 img {
@@ -287,7 +281,6 @@ box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.20);
 .top1 h2 {
     font-size: 26px;
 }
-
 
 
 /* --------------------------------------
@@ -371,10 +364,9 @@ address {
    Strona - Kontakt
    -------------------------------------- */
 
-#kontaktcol  {
+#kontaktcol {
     margin-top: 20px;
 }
-
 
 #kontaktcol h3 {
     font-size: 19px;
@@ -388,15 +380,15 @@ address {
 }
 
 .top-centra {
-     text-align: center;
+    text-align: center;
 }
 
-.top-centra img{
-     width: 30%;   
+.top-centra img {
+    width: 30%;
 }
 
-.top-centra h2{
-     margin-top: 2px;
+.top-centra h2 {
+    margin-top: 2px;
 }
 
 
