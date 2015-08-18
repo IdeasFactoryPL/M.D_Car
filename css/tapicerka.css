@@ -101,6 +101,9 @@ header img {
     border-style: none;
     height: 70px;
     margin-bottom: 0px;
+    -webkit-box-shadow: -3px 4px 14px -9px rgba(0,0,0,0.3);
+-moz-box-shadow: -3px 4px 14px -9px rgba(0,0,0,0.3);
+box-shadow: -3px 4px 14px -9px rgba(0,0,0,0.3);
 }
 
 .navbar-nav {
@@ -147,7 +150,7 @@ header img {
     margin-bottom: 50px;
 }
 
-#galery img {
+.galleryimg img {
     margin-bottom: 20px;
 }
 
@@ -160,6 +163,20 @@ header img {
 /* --------------------------------------
    Content
    -------------------------------------- */
+hr{
+    border-color: #838383
+}
+
+#galleryhk{
+
+    border-color: #838383;
+    margin-top: 0px;
+    width: 100%;
+    border-style: dashed;
+    
+
+}
+
 .shadowcolumn{
     height: auto;
     width: 90%;
@@ -169,6 +186,7 @@ header img {
 -webkit-box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.20);
 -moz-box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.20);
 box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.20);
+    padding-bottom: 50px;
 }
 
 .btn-primary {
@@ -214,6 +232,20 @@ box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.20);
 
 #main2 {
     background-color: #f1f1f1;
+    -webkit-box-shadow: 0px 0px 126px -22px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 0px 126px -22px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 0px 126px -22px rgba(0, 0, 0, 0.26);
+}
+
+#main3 {
+    -webkit-box-shadow: 0px 0px 126px -22px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 0px 126px -22px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 0px 126px -22px rgba(0, 0, 0, 0.26);
+    padding-bottom: 20px;
+}
+
+.footercolor {
+    padding-bottom: 40px;
 }
 
 .smallcol {
@@ -230,8 +262,18 @@ box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.20);
     float: left;
 }
 
+.hrtop{
+ display: inline-block;
+ width:25%;
+
+}
+
+.hrtop hr{
+ margin: 0 auto;
+ margin-bottom: 20px;
+}
+
 .top1 {
-    display: inline-block;
     width: 100%;
     margin-left: 40px;
 }
@@ -272,7 +314,11 @@ box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.20);
 }
 
 #col1 .top h2 {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+#col3 .top h2 {
+    margin-bottom: 20px;
 }
 
 #col1 h3 {
@@ -298,10 +344,6 @@ box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.20);
 #col2 h1 {
     font-size: 26px;
     margin-bottom: 30px;
-}
-
-#col3 #textform {
-    margin-top: 30px;
 }
 
 #col3 #textform2 {
