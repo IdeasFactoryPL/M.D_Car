@@ -434,6 +434,20 @@ margin: 0 auto;
     
 }
 
+.textcol {
+
+width:80%;
+
+
+}
+
+.textcol h4 {
+
+margin-top: 60px;
+margin-bottom: 60px;
+
+}
+
 
 /* --------------------------------------
    Strona - Galeria
@@ -442,6 +456,11 @@ margin: 0 auto;
 .photo {
     width: 80%;
     margin-bottom: 30px;
+}
+
+.photo p {
+    text-align: center;
+    margin-top: 5px;
 }
 
 
