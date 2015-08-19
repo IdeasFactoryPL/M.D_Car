@@ -393,6 +393,49 @@ address {
 
 
 /* --------------------------------------
+   Strona - Oferta
+   -------------------------------------- */
+
+.smallcol h5 {
+    text-align: center;
+}
+
+.offer img {
+    padding-top: 10px;
+}
+
+.offer h5 {
+    margin-top: 30px;
+}
+
+.offer h5 {
+    margin-top: 30px;
+}
+
+.borderhr {
+    margin-bottom: 20px;
+}
+
+
+/* --------------------------------------
+   Strona - O nas
+   -------------------------------------- */
+
+.eachr {
+
+margin-top: 20px;
+margin-bottom: 20px;
+    
+}
+
+.eachr img {
+
+margin: 0 auto;
+    
+}
+
+
+/* --------------------------------------
    Strona - Galeria
    -------------------------------------- */
 
