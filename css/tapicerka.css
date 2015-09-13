@@ -117,7 +117,6 @@ header img {
 
 .navbar-nav li a {
     padding-top: 25px;
-    padding-bottom: 28px;
 }
 
 .navbar-nav li:hover {
@@ -129,8 +128,10 @@ header img {
     color: #ff8000;
 }
 
-.navbar h3 {
+.navbar h1 {
     color: #c1c1c1;
+    font-size: 24px;
+    
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -147,7 +148,7 @@ header img {
    -------------------------------------- */
 
 #galery {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .galleryimg img {
@@ -190,7 +191,6 @@ hr {
     -webkit-box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.20);
     -moz-box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.20);
     box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.20);
-    padding-bottom: 50px;
 }
 
 .btn-primary {
@@ -254,6 +254,7 @@ hr {
 
 .smallcol {
     width: 80%;
+    min-height: 410px;
 }
 
 .top {
@@ -364,11 +365,11 @@ address {
    Strona - Kontakt
    -------------------------------------- */
 
-#kontaktcol {
+.kontaktcol {
     margin-top: 20px;
 }
 
-#kontaktcol h3 {
+.kontaktcol h3 {
     font-size: 19px;
     line-height: 26px;
     text-align: center;
@@ -396,23 +397,24 @@ address {
    Strona - Oferta
    -------------------------------------- */
 
-.smallcol h5 {
+.offershadow .smallcol h2 {
     text-align: center;
+    font-size: 17px;
 }
 
-.offer img {
+.offershadow .offer img {
     padding-top: 10px;
 }
 
-.offer h5 {
+ .offershadow .offer h2 {
     margin-top: 30px;
 }
 
-.offer h5 {
+ .offershadow .offer h2 {
     margin-top: 30px;
 }
 
-.borderhr {
+ .offershadow .borderhr {
     margin-bottom: 20px;
 }
 
@@ -422,30 +424,26 @@ address {
    -------------------------------------- */
 
 .eachr {
-
-margin-top: 20px;
-margin-bottom: 20px;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .eachr img {
-
-margin: 0 auto;
-    
+    margin: 0 auto;
 }
 
 .textcol {
-
-width:80%;
-
-
+    width: 80%;
 }
 
-.textcol h4 {
+.textcol h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
 
-margin-top: 60px;
-margin-bottom: 60px;
-
+.textcol img {
+    width: 70%;
 }
 
 
@@ -463,23 +461,336 @@ margin-bottom: 60px;
     margin-top: 5px;
 }
 
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
 
-/* Portrait & landscape phone */
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
 
-@media (max-width: 480px) {}
+.google-maps-big {
+    position: relative;
+    padding-bottom: 50%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
 
+.google-maps-big iframe {
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
 
-/* Landscape phone to portrait tablet */
+#pjustify p {
+    text-align: justify;
+}
 
-@media (max-width: 768px) {}
+#pjustify span {
+    font-size: 15px;
+}
 
-@media (max-width: 991px) {
-    .navbar {
-        height: auto;
-    }
+#pjustify h6 {
+    font-style: italic;
+    font-size: 15px;
+    color: #4d4d4d;
 }
 
 
-/* Large desktop */
+/* Home */
 
-@media (min-width: 1200px) {}
+.homeshadow .shadowcolumn {
+    min-height: 440px;
+}
+
+.homeshadow .btn-primary {
+    position: absolute;
+    bottom: 2px;
+    right: 1px;
+}
+
+.homeshadow .smallcol {
+    position: relative;
+}
+
+
+/* Offer */
+
+.offershadow .shadowcolumn {
+    min-height: 300px;
+}
+
+.offershadow .smallcol {
+    min-height: 250px;
+}
+
+
+/* Contact */
+
+.contactshadow .smallcol {
+    min-height: 300px;
+}
+
+
+#barnd h1 {
+
+font-size: 24px;
+
+}
+
+/* Portrait & landscape phone */
+
+@media (max-width: 1200px) {
+    .homeshadow .shadowcolumn {
+        min-height: 300px;
+    }
+    .homeshadow .smallcol {
+        min-height: 250px;
+    }
+    .opinion {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footercolor h3 {
+        text-align: center;
+    }
+    .offershadow .shadowcolumn {
+        min-height: 610px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        height: auto;
+    }
+    #brand {
+        display: none;
+    }
+    .navbar-nav li:hover {
+        border-top: none;
+    }
+    .navbar li {
+        text-align: center;
+    }
+    .footercolor h3 {
+        text-align: center;
+    }
+    .homeshadow .shadowcolumn {
+        min-height: 300px;
+    }
+    .homeshadow .smallcol {
+        min-height: 270px;
+    }
+    .offershadow .shadowcolumn {
+        min-height: 480px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #google1{
+    
+    display: none;
+    
+    }
+    
+}
+
+@media (max-width: 702px) {
+    .homeshadow .shadowcolumn {
+        height: 380px;
+    }
+    .homeshadow .smallcol {
+        height: 350px;
+    }
+    .opinion {
+        width: 90% !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .offershadow .shadowcolumn {
+        min-height: 460px;
+    }
+}
+
+@media (max-width: 650px) {
+    .offershadow .shadowcolumn {
+        min-height: 430px;
+    }
+}
+
+@media (max-width: 600px) {
+    .offershadow .shadowcolumn {
+        min-height: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .offershadow .shadowcolumn {
+        min-height: 360px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social {
+        clear: both;
+        width: 100%;
+        text-align: center;
+    }
+    .slidercolor {
+        display: none;
+    }
+    .footercolor h2 {
+        font-size: 23px;
+    }
+    .homeshadow .shadowcolumn {
+        height: 400px !important;
+    }
+    .homeshadow .smallcol {
+        height: 370px !important;
+    }
+    .offershadow .shadowcolumn {
+        min-height: 350px;
+    }
+}
+
+@media (max-width: 440px) {
+    .logo img {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social {
+        clear: both;
+        width: 100%;
+        text-align: center;
+    }
+    .slidercolor {
+        display: none;
+    }
+    .footercolor h2 {
+        font-size: 23px;
+    }
+    .homeshadow .shadowcolumn {
+        height: 420px !important;
+    }
+    .homeshadow .smallcol {
+        height: 390px !important;
+    }
+    .offershadow .shadowcolumn {
+        min-height: 330px;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo img {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social {
+        clear: both;
+        width: 100%;
+        text-align: center;
+    }
+    .slidercolor {
+        display: none;
+    }
+    .footercolor h2 {
+        font-size: 23px;
+    }
+    .homeshadow .shadowcolumn {
+        height: 440px !important;
+    }
+    .homeshadow .smallcol {
+        height: 410px !important;
+    }
+    .offershadow .shadowcolumn {
+        min-height: 310px;
+    }
+}
+
+@media (max-width: 360px) {
+    .logo img {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social {
+        clear: both;
+        width: 100%;
+        text-align: center;
+    }
+    .slidercolor {
+        display: none;
+    }
+    .footercolor h2 {
+        font-size: 23px;
+    }
+    .homeshadow .shadowcolumn {
+        height: 440px !important;
+    }
+    .homeshadow .smallcol {
+        height: 410px !important;
+    }
+    .offershadow .shadowcolumn {
+        min-height: 280px;
+    }
+    
+    .footercolor h3 {
+    
+        font-size: 20px;
+    
+    }
+}
+
+@media (max-width: 340px) {
+    .logo img {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social {
+        clear: both;
+        width: 100%;
+        text-align: center;
+    }
+    .slidercolor {
+        display: none;
+    }
+    .footercolor h2 {
+        font-size: 23px;
+    }
+    .homeshadow .shadowcolumn {
+        height: 480px !important;
+    }
+    .homeshadow .smallcol {
+        height: 450px !important;
+    }
+    .offershadow .shadowcolumn {
+        min-height: 260px;
+    }
+}
