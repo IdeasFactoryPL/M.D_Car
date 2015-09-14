@@ -131,7 +131,6 @@ header img {
 .navbar h1 {
     color: #c1c1c1;
     font-size: 24px;
-    
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -406,15 +405,15 @@ address {
     padding-top: 10px;
 }
 
- .offershadow .offer h2 {
+.offershadow .offer h2 {
     margin-top: 30px;
 }
 
- .offershadow .offer h2 {
+.offershadow .offer h2 {
     margin-top: 30px;
 }
 
- .offershadow .borderhr {
+.offershadow .borderhr {
     margin-bottom: 20px;
 }
 
@@ -541,12 +540,10 @@ address {
     min-height: 300px;
 }
 
-
 #barnd h1 {
-
-font-size: 24px;
-
+    font-size: 24px;
 }
+
 
 /* Portrait & landscape phone */
 
@@ -599,13 +596,9 @@ font-size: 24px;
 }
 
 @media (max-width: 768px) {
-
-    #google1{
-    
-    display: none;
-    
+    #google1 {
+        display: none;
     }
-    
 }
 
 @media (max-width: 702px) {
@@ -758,11 +751,8 @@ font-size: 24px;
     .offershadow .shadowcolumn {
         min-height: 280px;
     }
-    
     .footercolor h3 {
-    
         font-size: 20px;
-    
     }
 }
 
